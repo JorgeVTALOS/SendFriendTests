@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="suite">
+  <test name="Test chrome">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="OnboardingPageTests"/>
+      <class name="SignupPageTests"/>
+      <class name="LoginPageTests"/>
+      <class name="HomePageTests"/>
+      <class name="ProfilePageTests"/>
+      <class name="SendMoneyPageTests"/>
+      <class name="HamburgerMenuPageTests"/>
+    </classes>
+  </test>
+
+  <test name="Test firefox">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="OnboardingPageTests"/>
+      <class name="SignupPageTests"/>
+      <class name="LoginPageTests"/>
+      <class name="HomePageTests"/>
+      <class name="ProfilePageTests"/>
+      <class name="SendMoneyPageTests"/>
+      <class name="HamburgerMenuPageTests"/>
+    </classes>
+  </test>
+
+
+  <test name="Test jbrowser">
+    <parameter name="browser" value="jbrowser"/>
+    <classes>
+      <class name="OnboardingPageTests"/>
+      <class name="SignupPageTests"/>
+      <class name="LoginPageTests"/>
+      <class name="HomePageTests"/>
+      <class name="ProfilePageTests"/>
+      <class name="SendMoneyPageTests"/>
+      <class name="HamburgerMenuPageTests"/>
+    </classes>
+  </test>
+</suite>
